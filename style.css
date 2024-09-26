@@ -1,0 +1,167 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+}
+.navbar{
+    position:fixed ;
+    top:0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.1);
+    
+
+}
+.navbar a logo{
+    font-size: 0,2 ;
+    padding: 0.1;
+    color: black;
+}
+.navbar a:hover {
+    color:#f2a5ca;
+}
+navbar a:hover {
+    color:#f2a5ca;
+}
+    
+ 
+.logo {
+    font-size: 2rem;
+    color:black;
+    font-weight:800;
+
+}
+
+.logo span {
+    color: var(--pink);
+}
+
+
+.section {
+    padding: 2rem 9% ;
+}
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(Untitled\ design\ \(11\).png) ;
+    background-size: cover;
+    background-position: center;
+}
+.content {
+    max-width: 50rem;
+}
+.content h3 {
+    font-size: 3rem;
+    color: black;
+    margin: 40px;
+}
+.content span {
+    font-size: 3.5rem;
+    color: var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+.content span {
+    font-size: 2rem;
+    color: #f2a5ca;
+    padding: 1rem 0;
+    line-height: 1.5;
+    margin: 40px;
+}
+.content p {
+    margin: 40px;
+    color: black;
+}
+
+.content a {
+    margin: 40px;
+    color:#fff ;
+}
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: #f2a5ca;
+    color: #0d0101;
+    padding: 0.9rem 1.5rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+.btn:hover {
+    background-color:#9ACD32 ;
+}
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin: 2rem ;
+    background-color: #e8fdfd;
+    color:#f2a5ca;
+}
+.heading span {
+    margin: 1rem;
+}
+.img {
+    background-image: ("Best seller(1).png");
+    height: 100px;
+    width:100px;
+}
+.img-container{
+    float: right;
+}
+.content{
+    margin-top: 200px;
+    font-size: 1rem;
+}
+footer{
+    height: 60px;
+    background-color: #f2d5e3; ;
+    width: 400px;
+    margin-top: 100px;
+}
+.socialicons{
+    
+    padding: 70px 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2rem;
+    color: palevioletred;
+    opacity: 0.9;
+    margin-bottom: 200px;
+}
+.contact{
+   text-align: center;
+   justify-content: center;
+   padding-top: 15px;
+   color: palevioletred
+}
+.interest{
+    margin-left: 40px;
+    font-size: 1rem;
+}
+.gmail{
+    margin-top: 30px;
+   color: palevioletred;
+}
